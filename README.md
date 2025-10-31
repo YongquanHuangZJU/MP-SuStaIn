@@ -9,7 +9,7 @@ Purpose of this Fork:
 The goal of this fork is to purpose a new version of the **Su**btype and **St**age **In**ference (SuStaIn) algorithm: **M**ulti-**P**arametric SuStaIn (MP-SuStaIn). Previous SuStaIn successfully uncover distinct disease progression patterns from cross-sectional data, but all previous SuStaIn algorithm hypothesis that all biomarkers follows an independent progression without biomarker correlation. The MP-SuStaIn explicitly models the bivariate covariance among biomarkers in the model likelihood funciton, thus can be used to better fit the highly corelated biomarkers.
 
 Key modifications and new features in this version include:
-1. MPZscoreSustain.py, the code of MP-SuStaIn which is modified from [ZscoreSustain.py](https://github.com/ucl-pond/pySuStaIn/blob/master/pySuStaIn/ZscoreSustain.py)
+1. ZscoreSustainMP.py, the code of MP-SuStaIn which is modified from [ZscoreSustain.py](https://github.com/ucl-pond/pySuStaIn/blob/master/pySuStaIn/ZscoreSustain.py)
 
 
 The following is the README from the original pySuStaIn library:
